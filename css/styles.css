@@ -370,7 +370,7 @@ rgba(46, 47, 66, 0.7)), url("../images/people-office.png");
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.cust-icon:hover, .cust-icon:focus {
+.cust-card:hover > .cust-icon, .cust-card:focus > .cust-icon {
   fill: var(--ocean);
 }
 
@@ -386,7 +386,7 @@ rgba(46, 47, 66, 0.7)), url("../images/people-office.png");
 }
 
 .close-icon > .close-icon-cross {
-  fill: var(--navy-modal);
+  fill: black;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
